@@ -1,0 +1,9 @@
+name: NemisysTransfer
+main: pe.teslex.nt.Main
+version: "0.1"
+api: ["1.0.0"]
+
+commands:
+  transfer:
+    description: Simple transfer for Nemisys
+    usage: /transfer [player] [hash]
