@@ -14,14 +14,14 @@ public class Main extends PluginBase {
 
     @Override
     public void onEnable() {
-        this.getLogger().info("§a> §fВключён");
-        this.getLogger().info("§a> §fПлагин от §eTesLex Team");
+        this.getLogger().info("§a> §fEnabled");
+        this.getLogger().info("§a> §fPlugin by §eTesLex Team");
     }
 
     @Override
     public void onDisable() {
-        this.getLogger().info("§a> §fВыключён");
-        this.getLogger().info("§a> §fПлагин от §eTesLex Team");
+        this.getLogger().info("§a> §fDisabled");
+        this.getLogger().info("§a> §fPlugin by §eTesLex Team");
     }
 
     @Override
